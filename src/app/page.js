@@ -1,4 +1,36 @@
+import React, {useEffect} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Home() {
+    useEffect(() => {
+        const sideNav = document.body.querySelector('#sideNav');
+        if(sideNav){
+            new window.bootstrap.ScrollSpy(document.body, {
+                target: '#sideNav',
+                rootMargin: '0px 0px -40%',
+            });
+        }
+        const navbarToggler = document.body.querySelector('.navbar-toggler');
+        const responsiveNavItems = [].slice.call(
+            document.querySelectorAll('#navbarResponsive .nav-link')
+        );
+        responsiveNavItems.forEach((responsiveNavItems)=>{
+            responsiveNavItems.addEventListener('click', ()=>{
+                if(window.getComputedStyle(navbarToggler).display !== 'none'){
+                    navbarToggler.click();
+                }
+            });
+        });
+        return () => {
+            responsiveNavItems.forEach((responsiveNavItems)=> {
+                responsiveNavItems.removeEventListener('click', () => {
+                    if (window.getComputedStyle(navbarToggler).display !== 'none'){
+                        navbarToggler.click();
+                    }
+                });
+            });
+        };
+    }, []);
   return (
     <div id="page-top">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
