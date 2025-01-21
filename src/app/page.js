@@ -31,11 +31,14 @@ export default function Home() {
                     </div>
                     <p className="lead mb-5">I have an interesting in computer science. I like discussion about problem solving, responsible, and interesting to learn about new things. Not only programming and microsoft office skill but also I have a good public speaking skills.</p>
                     <div className="social-icons">
-                        <a className="social-icon" href="https://www.linkedin.com/in/laksmana-rakho-53a9b0245/"><i className="fab fa-linkedin-in"></i></a>
-                        <a className="social-icon" href="https://github.com/masraku"><i className="fab fa-github"></i></a>
-                        <a className="social-icon" href="https://x.com/MasRakuuu"><i className="fab fa-twitter"></i></a>
+                        <a className="social-icon" href="https://www.linkedin.com/in/laksmana-rakho-53a9b0245/" target="_blank" rel='noopener noreferrer'>
+                        <img src="/linkedin.png" alt='instgram' style={{width:'3.2rem', height:'3.2rem'}} /><i className="fab fa-linkedin-in"></i></a>
+                        <a className="social-icon" href="https://github.com/masraku" target="_blank" rel='noopener noreferrer'>
+                        <img src="/github.png" alt='instgram' style={{width:'3.2rem', height:'3.2rem'}} /><i className="fab fa-github"></i></a>
+                        <a className="social-icon" href="https://x.com/MasRakuuu" target="_blank" rel='noopener noreferrer' >
+                        <img src="/twitter.png" alt='instgram' style={{width:'3.2rem', height:'3.2rem'}} /><i className="fab fa-twitter"></i></a>
                         <a className="social-icon" href="https://www.instagram.com/masrakuuu/" target="_blank" rel='noopener noreferrer'>
-                        <img src="/instagram.png" alt='instgram' style={{width:'24px', height:'24px'}} /><i className="fab fa-instagram-f"></i></a>
+                        <img src="/instagram.png" alt='instgram' style={{width:'3.2rem', height:'3.2rem'}} /><i className="fab fa-instagram-f"></i></a>
                     </div>
                 </div>
             </section>
