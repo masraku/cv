@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Home() {
   return (
     <div id="page-top">
@@ -27,14 +29,14 @@ export default function Home() {
                     </h1>
                     <div className="subheading mb-5">
                         Jalan Inspeksi Kali Sunter RT 08/RW 05 · Kelapa Gading Barat · Jakarta Utara 14240 · (+62) 821 4615 0660 ·
-                        <a href="mailto:name@email.com">laksmanarakho@gmail.com</a>
+                        <a href="mailto:laksmanarakho@gmail.com">laksmanarakho@gmail.com</a>
                     </div>
                     <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                     <div className="social-icons">
                         <a className="social-icon" href="https://www.linkedin.com/in/laksmana-rakho-53a9b0245/"><i className="fab fa-linkedin-in"></i></a>
                         <a className="social-icon" href="https://github.com/masraku"><i className="fab fa-github"></i></a>
                         <a className="social-icon" href="https://x.com/MasRakuuu"><i className="fab fa-twitter"></i></a>
-                        <a className="social-icon" href="https://www.instagram.com/masrakuuu/"><i className="fab fa-instagram-f"></i></a>
+                        <a className="social-icon" href="https://www.instagram.com/masrakuuu/" target="_blank" rel='noopener noreferrer'><i className="fab fa-instagram-f"></i></a>
                     </div>
                 </div>
             </section>
