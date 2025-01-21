@@ -32,7 +32,7 @@ export default function Home() {
                         Jalan Inspeksi Kali Sunter RT 08/RW 05 · Kelapa Gading Barat · Jakarta Utara 14240 · (+62) 821 4615 0660 ·
                         <a href="mailto:laksmanarakho@gmail.com">laksmanarakho@gmail.com</a>
                     </div>
-                    <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p className="lead mb-5">I have an interesting in computer science. I like discussion about problem solving, responsible, and interesting to learn about new things. Not only programming and microsoft office skill but also I have a good public speaking skills.</p>
                     <div className="social-icons">
                         <a className="social-icon" href="https://www.linkedin.com/in/laksmana-rakho-53a9b0245/"><i className="fab fa-linkedin-in"></i></a>
                         <a className="social-icon" href="https://github.com/masraku"><i className="fab fa-github"></i></a>
