@@ -35,7 +35,7 @@ export default function Home() {
                         <a className="social-icon" href="https://github.com/masraku"><i className="fab fa-github"></i></a>
                         <a className="social-icon" href="https://x.com/MasRakuuu"><i className="fab fa-twitter"></i></a>
                         <a className="social-icon" href="https://www.instagram.com/masrakuuu/" target="_blank" rel='noopener noreferrer'>
-                        <img src={instagramIcon} alt='instgram' style={{width:'24px', height:'24px'}} /><i className="fab fa-instagram-f"></i></a>
+                        <img src="/instagram.png" alt='instgram' style={{width:'24px', height:'24px'}} /><i className="fab fa-instagram-f"></i></a>
                     </div>
                 </div>
             </section>

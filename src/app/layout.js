@@ -1,6 +1,4 @@
-import instagramIcon from './asset/instagram.png';
 import "./globals.css";
-import React from 'react';
 
 console.log(instagramIcon);
 
