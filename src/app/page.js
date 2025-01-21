@@ -1,5 +1,4 @@
 export default function Home() {
-    
   return (
     <div id="page-top">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
