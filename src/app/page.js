@@ -3,7 +3,7 @@ export default function Home() {
     <div id="page-top">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                <span className="d-block d-lg-none">Clarence Taylor</span>
+                <span className="d-block d-lg-none">Laksmana Rakho Marzendra</span>
                 <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/profile.jpg" alt="..." /></span>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
@@ -23,11 +23,11 @@ export default function Home() {
                 <div className="resume-section-content">
                     <h1 className="mb-0">
                         Laksmana Rakho
-                        <span className="text-primary">Marzendra</span>
+                        <span className="text-primary"> Marzendra</span>
                     </h1>
                     <div className="subheading mb-5">
                         Jalan Inspeksi Kali Sunter RT 08/RW 05 · Kelapa Gading Barat · Jakarta Utara 14240 · (+62) 821 4615 0660 ·
-                        <a href="mailto:laksmanarakho@gmail.com">laksmanarakho@gmail.com</a>
+                        <a href="mailto:laksmanarakho@gmail.com"> laksmanarakho@gmail.com</a>
                     </div>
                     <p className="lead mb-5">I have an interesting in computer science. I like discussion about problem solving, responsible, and interesting to learn about new things. Not only programming and microsoft office skill but also I have a good public speaking skills.</p>
                     <div className="social-icons">
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Developer</h3>
+                            <h3 className="mb-0">Web Developer</h3>         
                             <div className="subheading mb-3">Intelitec Solutions</div>
                             <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
                         </div>
@@ -86,20 +86,19 @@ export default function Home() {
                     <h2 className="mb-5">Education</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">University of Colorado Boulder</h3>
-                            <div className="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 className="mb-0">Mercubuana University</h3>
+                            <div className="subheading mb-3">Informatics Engineering 3rd Years</div>
+                            <p>GPA: 3.88</p>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">August 2006 - May 2010</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">2022 - Now</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">James Buchanan High School</h3>
-                            <div className="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 className="mb-0">SMA Negeri Kerjo</h3>
+                            <div className="subheading mb-3">Science</div>
+                            <p>GPA: 88.80</p>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">August 2002 - May 2006</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">August 2018 - May 2021</span></div>
                     </div>
                 </div>
             </section>
