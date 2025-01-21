@@ -1,5 +1,4 @@
 import React from 'react';
-import instagramIcon from './asset/instagram.png';
 
 export default function Home() {
   return (

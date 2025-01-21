@@ -1,4 +1,4 @@
-
+import instagramIcon from './asset/instagram.png';
 import "./globals.css";
 
 
