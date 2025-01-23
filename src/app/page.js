@@ -1,5 +1,48 @@
 "use client";
+import { useEffect, useRef } from 'react';
+
 export default function Home() {
+        const useScrollSpyAndNavbarToggle = () => {
+        const responsiveNavItemsRef = useRef([]);
+
+        useEffect(() => {
+            const sideNav = document.body.querySelector('#sideNav');
+            const navbarToggler = document.body.querySelector('.navbar-toggler');
+
+            // Initialize ScrollSpy
+            if (sideNav) {
+            new window.bootstrap.ScrollSpy(document.body, {
+                target: '#sideNav',
+                rootMargin: '0px 0px -40%',
+            });
+            }
+
+            // Add event listeners for responsive nav items
+            const responsiveNavItems = Array.from(
+            document.querySelectorAll('#navbarResponsive .nav-link')
+            );
+
+            responsiveNavItemsRef.current = responsiveNavItems;
+
+            const handleNavItemClick = () => {
+            if (navbarToggler && window.getComputedStyle(navbarToggler).display !== 'none') {
+                navbarToggler.click();
+            }
+            };
+
+            responsiveNavItems.forEach((item) => {
+            item.addEventListener('click', handleNavItemClick);
+            });
+
+            // Cleanup on unmount
+            return () => {
+            responsiveNavItems.forEach((item) => {
+                item.removeEventListener('click', handleNavItemClick);
+            });
+            };
+        }, []);
+        };
+
   return (
     <div id="page-top">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
