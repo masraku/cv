@@ -25,7 +25,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id="footer" className="bg-gray-900 text-white py-8">
+    <footer id="footer" className="text-black py-8">
       <div className="container mx-auto text-center">
         <h3 className="text-xl font-semibold">Get in Touch!</h3>
         <div className="social-links flex justify-center gap-4 mt-4">
