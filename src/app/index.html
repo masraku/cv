@@ -1,0 +1,166 @@
+'use client';
+
+import React from 'react';
+import './Resume.css';
+
+const Resume = () => {
+  return (
+    <section id="resume" className="resume">
+      <div className="container" data-aos="fade-up">
+        <div className="section-title">
+          <h2>Resume</h2>
+          <p>
+            Berikut adalah riwayat pendidikan, pengalaman kerja, dan pengalaman
+            organisasi saya.
+          </p>
+        </div>
+        <div className="row">
+          {/* Bagian Pendidikan */}
+          <div className="col-lg-6">
+            <h3 className="resume-title">Education</h3>
+            <div className="resume-item">
+              <h4>S1 Sistem Informasi (On-Going)</h4>
+              <h5>2021 - Present</h5>
+              <p>
+                <em>
+                  <a href="http://www.uin-suska.ac.id/" target="_blank" rel="noopener noreferrer">
+                    UIN Suska Riau
+                  </a>
+                </em>
+              </p>
+              <p>
+                Universitas Islam Negeri Sultan Syarif Kasim (UIN Suska) Riau
+                merupakan hasil pengembangan/peningkatan status pendidikan dari
+                Institut Agama Islam Negeri (IAIN) Sulthan Syarif Qasim
+                Pekanbaru yang secara resmi dikukuhkan berdasarkan Peraturan
+                Presiden RI Nomor 2 Tahun 2005 tanggal 4 Januari 2005.
+              </p>
+            </div>
+            <div className="resume-item">
+              <h4>SMA Negeri 1 Barumun</h4>
+              <h5>2018 - 2021</h5>
+              <p>
+                <em>
+                  <a
+                    href="https://www.instagram.com/mpk.osis.sman1barumun/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    SMA Negeri 1 Barumun
+                  </a>
+                </em>
+              </p>
+              <p>
+                SMA Negeri 1 Barumun adalah salah satu sekolah terbaik di
+                Kabupaten Padang Lawas yang berlokasi di Lingkungan VI Pasar
+                Sibuhuan.
+              </p>
+            </div>
+          </div>
+
+          {/* Bagian Pengalaman Profesional */}
+          <div className="col-lg-6">
+            <h3 className="resume-title">Professional Experience</h3>
+            <div className="resume-item">
+              <h4>Cloud Computing Cohort</h4>
+              <h5>2024 - Present</h5>
+              <p>
+                <em>
+                  <a
+                    href="https://www.linkedin.com/company/31509534/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2B9Le%2F3NCQRuiU26n5YAp9w%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+                  </a>
+                </em>
+              </p>
+            </div>
+            <div className="resume-item">
+              <h4>Developer and Speakers Division</h4>
+              <h5>2023 - 2024</h5>
+              <p>
+                <em>
+                  <a
+                    href="https://gdsc.community.dev/universitas-islam-negeri-sultan-syarif-kasim/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Google Developer Student Clubs UIN Suska Riau
+                  </a>
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Membuat kurikulum belajar dan konsep mengenai Machine
+                  Learning, Mobile Development, Cloud Computing, dan Web
+                  Development.
+                </li>
+                <li>Menjadi narasumber jika diperlukan.</li>
+                <li>
+                  Mencari narasumber sesuai dengan arah belajar yang telah
+                  ditentukan.
+                </li>
+                <li>
+                  Menentukan arah belajar dan timeline GDSC selama satu
+                  periode bersama dengan divisi Partnership and Programs.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-item">
+              <h4>Head of Division</h4>
+              <h5>2023 - 2024</h5>
+              <p>
+                <em>
+                  <a
+                    href="https://www.instagram.com/himasiuinsuska/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Himpunan Mahasiswa Sistem Informasi UIN Suska Riau
+                  </a>
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Dalam peran saya sebagai Kepala Divisi Pendidikan,
+                  Penelitian, dan Teknologi di Himpunan Mahasiswa Sistem
+                  Informasi UIN Suska Riau, saya mengabdikan diri untuk
+                  mendorong perkembangan pendidikan, penelitian, dan teknologi
+                  di komunitas kami.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-item">
+              <h4>Laboratory Assistant</h4>
+              <h5>2022 - 2024</h5>
+              <p>
+                <em>
+                  <a href="http://lab-si.uin-suska.ac.id" target="_blank" rel="noopener noreferrer">
+                    Laboratorium Program Studi Sistem Informasi UIN Suska Riau
+                  </a>
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Terlibat dalam perencanaan, pengembangan, dan penyempurnaan
+                  materi praktikum.
+                </li>
+                <li>
+                  Berkolaborasi dengan dosen untuk memperbarui eksperimen agar
+                  lebih relevan.
+                </li>
+                <li>
+                  Membantu pemeliharaan rutin dan kalibrasi peralatan
+                  laboratorium.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Resume;
