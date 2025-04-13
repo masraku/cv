@@ -10,6 +10,7 @@ const Portfolio = () => {
         </div>
 
         <div className="row portfolio-container" data-aos="zoom-in" data-aos-delay="100">
+          {/* Proyek Website MarketPlace */}
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap" data-aos="zoom-in" data-aos-delay="100">
               <Image
@@ -44,7 +45,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* Proyek Disdikpku */}
+          {/* Proyek Food Order */}
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap" data-aos="zoom-in" data-aos-delay="100">
               <Image
@@ -79,7 +80,40 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* Proyek lain dapat ditambahkan dengan format yang sama */}
+          {/* Proyek Eventku */}
+          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="portfolio-wrap" data-aos="zoom-in" data-aos-delay="100">
+              <Image
+                src="/assets/image/android.png"
+                className="img-fluid"
+                alt="Android Mobile"
+                width={500}
+                height={300}
+              />
+              <div className="portfolio-info">
+                <h4>Eventku by Mikseru</h4>
+                <p>Website to find all idol event in Jabodetabek</p>
+                <div className="portfolio-links">
+                  <a
+                    href="/assets/image/eventku.png"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App"
+                  >
+                    <i className="bx bx-search"></i>
+                  </a>
+                  <a
+                    href="https://mikseru.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Kunjungi"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
