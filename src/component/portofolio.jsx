@@ -84,7 +84,7 @@ const Portfolio = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap" data-aos="zoom-in" data-aos-delay="100">
               <Image
-                src="/assets/image/android.png"
+                src="/assets/image/eventku.png"
                 className="img-fluid"
                 alt="Android Mobile"
                 width={500}
