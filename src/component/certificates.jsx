@@ -14,22 +14,22 @@ export default function Certificates() {
       imgSrc: '/assets/certificates/3.jpg',
     },
     {
-      imgSrc: '/assets/certificates/4.jpg',
-    },
-    {
       imgSrc: '/assets/certificates/5.jpg',
     },
     {
       imgSrc: '/assets/certificates/6.jpg',
     },
     {
-       imgSrc: '/assets/certificates/7.jpg',
+      imgSrc: '/assets/certificates/7.jpg',
     },
     {
-       imgSrc: '/assets/certificates/8.jpg',
+      imgSrc: '/assets/certificates/8.jpg',
     },
     {
-       imgSrc: '/assets/certificates/9.jpg',
+      imgSrc: '/assets/certificates/9.jpg',
+    },
+    {
+      imgSrc: '/assets/certificates/10.jpg',
     },
   ];
 

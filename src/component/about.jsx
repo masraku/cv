@@ -65,7 +65,7 @@ const About = () => {
                     <strong>Degree:</strong>
                     <span>
                       <Link href="https://mercubuana.ac.id/" target="_blank">
-                        Undergraduated IS
+                        Undergraduated at Mercu Buana University
                       </Link>
                     </span>
                   </li>
@@ -86,10 +86,12 @@ const About = () => {
               </div>
             </div>
             <p style={{ textAlign: 'justify' }}>
-              I am an Informatics Engineering student who is passionate about delving into coding
-              and software testing. Throughout this learning journey, I am committed to honing my
-              skills to become an expert in developing reliable and high-quality software
-              solutions.
+              Dynamic administrative professional with three years of experience in stock management and
+              procurement, driving operational efficiency and accuracy. Proficient in Microsoft Office, alongside
+              foundational programming skills, enhances problem-solving capabilities and streamlines workflows.
+              Known for exceptional organizational skills and adaptability, fostering effective collaboration in fast-
+              paced environments. Eager to transition into web programming, leveraging a solid foundation in
+              informatics engineering and a passion for technology to contribute to innovative solutions.
             </p>
           </div>
         </div>

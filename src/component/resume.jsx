@@ -14,7 +14,7 @@ const Resume = () => {
           <div className="col-lg-6">
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>S1 Informatic Engineering (On-Going)</h4>
+              <h4>Bachelor of Informathics Engineering (On-Going)</h4>
               <h5>2021 - Present</h5>
               <p>
                 <em>
@@ -47,7 +47,7 @@ const Resume = () => {
           <div className="col-lg-6">
             <h3 className="resume-title">Organization Experience</h3>
             <div className="resume-item">
-              <h4>Scouting Ambassador Regional Karanganyar</h4>
+              <h4>Scouting Ambassador  Karanganyar</h4>
               <h5>2019</h5>
               <p>
                 <em>
@@ -56,7 +56,7 @@ const Resume = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Scouting Ambassador Regional Karanganyar
+                    Scouting Ambassador of Karanganyar
                   </a>
                 </em>
               </p>
@@ -67,7 +67,7 @@ const Resume = () => {
               </ul>
             </div>
             <div className="resume-item">
-              <h4>Head of Activity Scouting Organization SMA Negeri Kerjo</h4>
+              <h4>Head of Activity Ambalan SMA Negeri Kerjo</h4>
               <h5>2019 - 2020</h5>
               <p>
                 <em>
