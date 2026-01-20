@@ -134,6 +134,26 @@ const Resume = () => {
                 <li>Designed and developed RESTful APIs</li>
               </ul>
             </div>
+            <div className="resume-item">
+              <h4>Fullstack Developer at Disnaker Cirebon</h4>
+              <h5>2026</h5>
+              <p>
+                <em>
+                  <a
+                    href="https://kerjasimpel.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fullstack Developer
+                  </a>
+                </em>
+              </p>
+              <ul>
+                <li>Developed a web application for public jobseekers</li>
+                <li>Implemented user authentication and authorization</li>
+                <li>Designed and developed RESTful APIs</li>
+              </ul>
+            </div>
           </div>
 
         </div>

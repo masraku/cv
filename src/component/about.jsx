@@ -35,7 +35,7 @@ const About = () => {
                     <strong>Website:</strong>
                     <span>
                       <Link href="https://masraku.site" target="_blank">
-                        masraku.site
+                        masraku.dev
                       </Link>
                     </span>
                   </li>
@@ -86,12 +86,7 @@ const About = () => {
               </div>
             </div>
             <p style={{ textAlign: 'justify' }}>
-              Dynamic administrative professional with three years of experience in stock management and
-              procurement, driving operational efficiency and accuracy. Proficient in Microsoft Office, alongside
-              foundational programming skills, enhances problem-solving capabilities and streamlines workflows.
-              Known for exceptional organizational skills and adaptability, fostering effective collaboration in fast-
-              paced environments. Eager to transition into web programming, leveraging a solid foundation in
-              informatics engineering and a passion for technology to contribute to innovative solutions.
+              Fresh Graduate Full-Stack Web Developer with a strong focus on front-end development using React.js. Possesses a solid foundation in web technologies including HTML, CSS, JavaScript, and RESTful APIs, supported by an academic background in Informatics Engineering. Experienced in developing responsive and user-friendly web applications through academic projects and personal practice. Demonstrates strong problem-solving skills, adaptability, and the ability to learn new technologies quickly. Motivated to contribute to team-based development and build scalable, efficient web solutions.
             </p>
           </div>
         </div>

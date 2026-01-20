@@ -38,7 +38,7 @@ export default function Certificates() {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Certificates</h2>
-          <p>Berikut adalah sertifikat yang telah diraih.</p>
+          <p>Here are the certificates that have been achieved.</p>
         </div>
 
         <div className="row portfolio-container" data-aos="zoom-in" data-aos-delay="100">

@@ -149,6 +149,41 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
+          {/* Web SIMPLE Cari Kerja*/}
+          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="portfolio-wrap" data-aos="zoom-in" data-aos-delay="100">
+              <Image
+                src="/assets/image/simpel.png"
+                className="img-fluid"
+                alt="Web Pengaduan by JPH"
+                width={500}
+                height={300}
+              />
+              <div className="portfolio-info">
+                <h4>Website SIMPEL Cari Kerja by Disnaker Cirebon</h4>
+                <p>Website untuk mencari pekerjaan dengan AI Integrated khusus Kabupaten Cirebon </p>
+                <div className="portfolio-links">
+                  <a
+                    href="/assets/image/simpel.png"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App"
+                  >
+                    <i className="bx bx-search"></i>
+                  </a>
+                  <a
+                    href="https://kerjasimpel.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Kunjungi"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
