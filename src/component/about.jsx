@@ -34,7 +34,7 @@ const About = () => {
                     <i className="bi bi-chevron-right"></i>
                     <strong>Website:</strong>
                     <span>
-                      <Link href="https://masraku.site" target="_blank">
+                      <Link href="https://masraku.dev" target="_blank">
                         masraku.dev
                       </Link>
                     </span>
@@ -65,7 +65,7 @@ const About = () => {
                     <strong>Degree:</strong>
                     <span>
                       <Link href="https://mercubuana.ac.id/" target="_blank">
-                        Undergraduated at Mercu Buana University
+                        Mercu Buana University (UG)
                       </Link>
                     </span>
                   </li>
@@ -73,8 +73,8 @@ const About = () => {
                     <i className="bi bi-chevron-right"></i>
                     <strong>Email:</strong>
                     <span>
-                      <Link href="mailto:laksmanarakho@gmail.com">
-                        laksmanarakho@gmail.com
+                      <Link href="mailto:masraku@masraku.dev">
+                        contact me!
                       </Link>
                     </span>
                   </li>
