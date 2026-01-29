@@ -2,37 +2,42 @@
 
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import Link from 'next/link';
+
 const Hero = () => {
   const typedRef = useRef(null);
 
   useEffect(() => {
-    const options = {
+    const typed = new Typed(typedRef.current, {
       strings: [
-        'Web Developer',
-        'IT Enthusiast',
-        'Informathic Engineering Student',
+        'Web Developer who builds real-world systems',
+        'Building public service & job platform websites',
+        'Helping startups and clients turn ideas into working products',
       ],
-      typeSpeed: 50,
-      backSpeed: 50,
+      typeSpeed: 45,
+      backSpeed: 30,
       loop: true,
-    };
+    });
 
-    // Initialize Typed.js
-    const typed = new Typed(typedRef.current, options);
-
-    return () => {
-      // Destroy instance on unmount
-      typed.destroy();
-    };
+    return () => typed.destroy();
   }, []);
 
   return (
     <section id="hero" className="d-flex flex-column justify-content-center">
       <div className="container">
-        <h1>Laksmana Rakho Marzendra</h1>
-        <p>
-          I&apos;m <span ref={typedRef} className="typed"></span>
+        <h1>
+          I build web systems <br /> that actually get used
+        </h1>
+
+        <p className="mt-3">
+          I&apos;m{' '}
+          <span ref={typedRef} className="typed fw-semibold"></span>
         </p>
+
+        <p className="text-muted mt-2">
+          Built public complaint and job-seeking platforms for local government institutions.
+        </p>
+
         <div className="social-links">
           <a
             href="https://api.whatsapp.com/send?phone=6282146150660&text="
@@ -67,15 +72,17 @@ const Hero = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
         </div>
-        <div>
-          <a
-            href="./cv.pdf"
+
+        <div className="mt-4">
+          <Link
+            href={certificate.imgSrc}
             target="_blank"
             rel="noopener noreferrer"
-            className="custom-btn btn-15"
+            className="portfolio-lightbox"
           >
-            Resume
-          </a>
+            <i className="bx bx-search"></i>
+          </Link>
+
         </div>
       </div>
     </section>
